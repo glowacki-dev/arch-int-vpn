@@ -23,7 +23,7 @@ if [[ ! -z "${OS_ARCH}" ]]; then
 	if [[ "${OS_ARCH}" == "arch" ]]; then
 		OS_ARCH="x86-64"
 	else
-		OS_ARCH="aarch64"
+		OS_ARCH="armv7h"
 	fi
 	echo "[info] OS_ARCH defined as '${OS_ARCH}'"
 else
